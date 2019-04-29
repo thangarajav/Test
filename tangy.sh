@@ -1,3 +1,3 @@
 date
-uptime
+sleep 10
 hostname
