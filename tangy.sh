@@ -1,5 +1,5 @@
 date
 sleep 10
-hostn
+hostname
 uptime
-una
+uname -a
