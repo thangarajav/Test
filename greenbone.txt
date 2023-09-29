@@ -226,6 +226,9 @@ docker compose -f $DOWNLOAD_DIR/docker-compose.yml -p greenbone-community-editio
     exec -u gvmd gvmd gvmd --user=admin --new-password=<password>
 
 
+
+wget https://github.com/aquasecurity/trivy/releases/download/v0.17.2/trivy_0.17.2_Linux-64bit.deb
+sudo dpkg -i trivy_0.17.2_Linux-64bit.deb
 xdg-open "http://127.0.0.1:9392" 2>/dev/null >/dev/null &
 
 
